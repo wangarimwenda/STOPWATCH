@@ -1,0 +1,70 @@
+body{ background-image: url(CLAIRE.jpeg);
+    background-size:contain;
+    background-position: center;
+   
+    background-repeat:inherit;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ece9ed;
+}
+
+#myH1{
+    font-size: 4rem;
+    color: hsl(300, 3%, 6%);
+    background-color: #ece9ed;
+    padding: 2px;
+    border: 5px solid pink;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items:end;
+    padding:30px;
+    border: 5px solid pink;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+}
+#display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 2px hsl(0, 0%, 5%);
+  margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color:blueviolet;
+    transition: background-color 0.5 ease;
+}
+#startBtn{
+    background-color: #4CAF50;
+}
+#startBtn:hover{
+    background-color: #345835;
+}
+#stopBtn{
+    background-color: #f83c08;
+}
+#stopBtn:hover{
+    background-color: #892c27;
+}
+#resetBtn{
+    background-color: #574caf;
+}
+#resetBtn:hover{
+    background-color: #231642;
+}
